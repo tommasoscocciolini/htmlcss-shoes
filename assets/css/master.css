@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+main{
+  height: 300vh;
+}
+
+header .balls{
+  position: fixed;
+  top: 50px;
+  right: 40px;
+  z-index: 2;
+}
+
+.balls a{
+  border-radius: 60%;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+main{
+  position: relative;
+}
+
+[class^='blocco']{
+  height: 100vh;
+  position: relative;
+}
+
+.blocco1{
+  background-color: red;
+}
+.blocco2{
+  background-color: green;
+}
+.blocco3{
+  background-color: yellow;
+}
+
+[class^='blocco'] img{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+}
+
+ [class^='blocco'] h1{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 4.8em;
+   line-height: 120%;
+   text-transform: uppercase;
+   color: yellow;
+ }
+
+.blocco3 h1{
+  color: green;
+}
+
+div.didascalia{
+  text-align: center;
+}
