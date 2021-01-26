@@ -5,12 +5,12 @@
   font-family: 'Coda Caption', sans-serif;
 }
 
-/* html{                                BONUS
+html{                                
   scroll-snap-type: y mandatory;
 }
 .container div  {
   scroll-snap-align: center;
-}*/
+}
 
 main{
   height: 300vh;
